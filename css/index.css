@@ -55,6 +55,38 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    display: inline-block;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 2%;
+    font-size: 16px;
+    text-align: center;
+}
+
+header nav a {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+  }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -85,6 +117,46 @@ p {
     padding-bottom: 20px;  
 }
 
+.box:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral;
+}
+
+.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +176,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +214,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+    border-bottom: 2px dotted black;
+    margin-bottom: 100px;
+}
+
+.content-container {
+    margin-bottom: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-container > div {
+    flex: 0 10 40%;
+    border-bottom: 2px dotted black;
+    padding: 10px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
 }
